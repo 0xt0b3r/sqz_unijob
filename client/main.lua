@@ -449,6 +449,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		if ESX.PlayerData.job ~= nil then
+			if currentAction then
 			if IsControlJustReleased(0, 38)  then
 
 				if CurrentAction == 'menu_cloakroom' then
@@ -478,6 +479,7 @@ Citizen.CreateThread(function()
 
 				CurrentAction = nil
 			end
+		end
 		if IsControlJustReleased(0, 167) and ESX.PlayerData.job.name ~= 'unemployed' then
 			for _, blackjobs in pairs(Config.BlacklistedF6jobs) do
 				if ESX.PlayerData.job.name ~= blackjobs then
