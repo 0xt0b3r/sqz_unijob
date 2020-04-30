@@ -1,4 +1,4 @@
-# sq_unijob
+# sqz_unijob
 
 First I would like to tell you that this resource is made by me but I did not write everything by me.
 ##The script I editted is [esx_policejob](https://github.com/ESX-Org/esx_policejob). So lets go and use this as well :-)
