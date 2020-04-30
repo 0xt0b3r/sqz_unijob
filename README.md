@@ -1,7 +1,7 @@
 # sqz_unijob
 
 First I would like to tell you that this resource is made by me but I did not write everything by me.
-##The script I editted is [esx_policejob](https://github.com/ESX-Org/esx_policejob). So lets go and use this as well :-)
+##The script I edited is [esx_policejob](https://github.com/ESX-Org/esx_policejob). So lets go and use this as well :-)
 
 Next the other things is, that this script was made, because I saw many servers having resources and jobs like:
 esx_mafiajob, esx_vagosjob, esx_gangjob, esx_carteljob and these resources did not have anything more than this script
