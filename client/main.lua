@@ -402,7 +402,7 @@ Citizen.CreateThread(function()
 
 					if (v.Marker ~= -1 and distance < Config.DrawDistance) then
 						letSleep = false
-						DrawMarker(v.Marker, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, nil, nil, false)
+						DrawMarker(v.Marker, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, true, nil, nil, false)
 						local distance = GetDistanceBetweenCoords(playerCoords, v.Pos.x, v.Pos.y, v.Pos.z, true)
 						if distance <= 2.5  then
 						DrawText3Ds(v.Pos.x, v.Pos.y, v.Pos.z + 0.3, tostring(v.MotionText))
