@@ -1,7 +1,7 @@
-local CurrentActionData, handcuffTimer, dragStatus, blipsCops, currentTask = {}, {}, {}, {}, {}
-local HasAlreadyEnteredMarker, isBussy, isHandcuffed, hasAlreadyJoined, playerInService = false, false, false, false, false
-local LastStation, LastPart, LastPartNum, LastEntity, CurrentAction, CurrentActionMsg
-dragStatus.isDragged, isInShopMenu = false, false
+local CurrentActionData, dragStatus = {}, {}
+local HasAlreadyEnteredMarker, isBussy, isHandcuffed = false, false, false
+local LastStation, LastPart, LastPartNum, CurrentAction
+dragStatus.isDragged = false
 local CurrentlyTowedVehicle = nil
 ESX = nil
 
@@ -379,7 +379,6 @@ function OpenArmoryMenu(station)
 		menu.close()
 
 		CurrentAction     = 'menu_armory'
-		CurrentActionMsg  = _U('open_armory')
 		CurrentActionData = {station = station}
 	end)
 end
